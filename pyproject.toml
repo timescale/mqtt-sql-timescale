@@ -1,0 +1,11 @@
+[project]
+name = "mqtt-sql-timescale"
+version = "0.1.0"
+description = "From MQTT to SQL: A Practical Guide to Sensor Data Ingestion with TimescaleDB"
+requires-python = ">=3.12"
+dependencies = [
+    "paho-mqtt>=2.1.0",
+    "psycopg-pool>=3.3.0",
+    "psycopg[binary]>=3.3.2",
+    "python-dotenv>=1.2.1",
+]
